@@ -1,6 +1,6 @@
-# HLLC Method for Solving 1D-Euler Equations System with Riemann Problem Initial Condition & Woodward-Collela Blast Wave Problem
+## HLLC Solver for 1D-Euler Equations System with Riemann Problem & Woodward-Collela Blast Wave Problem
 
-## Problem Statement
+### Problem Statement
 <div style="text-align: left;">
   
 $$
@@ -19,7 +19,7 @@ $$
 \frac{\partial{e}}{\partial{t}} + \frac{\partial{u(e + p)}}{\partial{x}}=0
 $$
 
-### (1) Riemann Problem Boundary
+#### (1) Riemann Problem Boundary
 $$
 p(x,0) = 1
 \quad
@@ -36,7 +36,7 @@ v(x,0) = \begin{cases}
 \end{cases}
 $$
 
-### (2) Woodward-Collela Blast Wave Problem
+#### (2) Woodward-Collela Blast Wave Problem
 $$
 \rho(x,0) = 1
 \quad
