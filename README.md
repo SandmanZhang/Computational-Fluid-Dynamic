@@ -1,10 +1,42 @@
+## Project 2: Upwind Scheme for Solving 2D-Euler Equations System
+### Problem Statement
+$$
+\frac{\partial{\tilde{\rho}}}{\partial{t}} + \frac{\partial{\tilde{u}}}{\partial{x}} + \frac{\partial{\tilde{v}}}{\partial{y}} = 0
+$$
 
+$$
+\frac{\partial{\tilde{u}}}{\partial{t}} + \frac{\partial{\tilde{\rho}}}{\partial{x}} = 0
+$$
 
+$$
+\frac{\partial{\tilde{v}}}{\partial{t}} + \frac{\partial{\tilde{p}}}{\partial{y}} = 0
+$$
+
+$$
+\frac{\partial{\tilde{p}}}{\partial{t}} + \gamma\frac{\partial{\tilde{u}}}{\partial{x}} + \gamma\frac{\partial{\tilde{v}}}{\partial{y}} = 0
+$$
+
+With Initial Condition:
+
+$$
+\tilde{u}(x,y,0)=\tilde{v}(x,y,0)=0, \forall (x,y)\in\Omega
+$$
+
+$$
+\tilde{\rho}(x,y,0) = \tilde{p}(x,y,0)=\begin{cases}
+    -1 & \text{if } (x,y) \in B \\
+    0 & \text{if } (x,y) \in \Omega \\B
+\end{cases} 
+$$
+
+Where 
+$$
+B=\{(x,y)|(x-x_0)^2+(y-y_0)^2<=r^2\}
+$$
 
 ## Project 2: HLLC Solver for 1D-Euler Equations System with Riemann Problem & Woodward-Collela Blast Wave Problem
 
 ### Problem Statement
-<div style="text-align: left;">
   
 $$
 \frac{\partial{\rho}}{\partial{t}} + \frac{\partial{(\rho u)}}{\partial{x}}=0
