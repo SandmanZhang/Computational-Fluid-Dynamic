@@ -1,4 +1,4 @@
-## Project 2: Upwind Scheme for Solving 2D-Euler Equations System
+## Project 1: Upwind Scheme for Solving 2D-Euler Equations System
 ### Problem Statement
 $$
 \frac{\partial{\tilde{\rho}}}{\partial{t}} + \frac{\partial{\tilde{u}}}{\partial{x}} + \frac{\partial{\tilde{v}}}{\partial{y}} = 0
@@ -29,9 +29,10 @@ $$
 \end{cases} 
 $$
 
-Where 
+Where $B=\\{(x,y)|(x-x_0)^2+(y-y_0)^2<=r^2\\},\rho_0>0$. The boundary conditions are:
+
 $$
-B=\{(x,y)|(x-x_0)^2+(y-y_0)^2<=r^2\}
+\tilde{u}(0,y,t)=\tilde{u}(1,y,t)=\tilde{v}(x,0,t)=\tilde{v}(x,1,t)=0
 $$
 
 ## Project 2: HLLC Solver for 1D-Euler Equations System with Riemann Problem & Woodward-Collela Blast Wave Problem
