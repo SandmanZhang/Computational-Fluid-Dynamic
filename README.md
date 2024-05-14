@@ -58,7 +58,7 @@ $$
 \frac{\partial{e}}{\partial{t}} + \frac{\partial{u(e + p)}}{\partial{x}}=0
 $$
 
-#### (1) Riemann Problem Boundary
+#### (1) Riemann Problem
 $$
 p(x,0) = 1
 \quad
