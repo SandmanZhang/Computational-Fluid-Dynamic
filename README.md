@@ -30,7 +30,7 @@ $$
 \end{cases} 
 $$
 
-Where $B=\\{(x,y)|(x-x_0)^2+(y-y_0)^2<=r^2\\},\rho_0>0$. The boundary conditions are:
+Where $B=\\{(x,y)|(x-x_0)^2+(y-y_0)^2 \leq r^2\\},\rho_0>0$. The boundary conditions are:
 
 $$
 \tilde{u}(0,y,t)=\tilde{u}(1,y,t)=\tilde{v}(x,0,t)=\tilde{v}(x,1,t)=0
