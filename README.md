@@ -1,4 +1,7 @@
-## HLLC Solver for 1D-Euler Equations System with Riemann Problem & Woodward-Collela Blast Wave Problem
+
+
+
+## Project 2: HLLC Solver for 1D-Euler Equations System with Riemann Problem & Woodward-Collela Blast Wave Problem
 
 ### Problem Statement
 <div style="text-align: left;">
