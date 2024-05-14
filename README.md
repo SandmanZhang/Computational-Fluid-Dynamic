@@ -1,5 +1,6 @@
+# Numerical Method for Solving Conservative PDE System
 ## Project 1: Upwind Scheme for Solving 2D-Euler Equations System
-### 1.Problem Statement
+### 1.1.Problem Statement
 $$
 \frac{\partial{\tilde{\rho}}}{\partial{t}} + \frac{\partial{\tilde{u}}}{\partial{x}} + \frac{\partial{\tilde{v}}}{\partial{y}} = 0
 $$
@@ -34,12 +35,12 @@ Where $B=\\{(x,y)|(x-x_0)^2+(y-y_0)^2<=r^2\\},\rho_0>0$. The boundary conditions
 $$
 \tilde{u}(0,y,t)=\tilde{u}(1,y,t)=\tilde{v}(x,0,t)=\tilde{v}(x,1,t)=0
 $$
-### 2.Numerical Scheme and Result:
+### 1.2.Numerical Scheme and Result:
 Please refer to PDF report in the file:Project 1
 
 ## Project 2: HLLC Solver for 1D-Euler Equations System with Riemann Problem & Woodward-Collela Blast Wave Problem
 
-### 1.Problem Statement
+### 2.Problem Statement
   
 $$
 \frac{\partial{\rho}}{\partial{t}} + \frac{\partial{(\rho u)}}{\partial{x}}=0
@@ -98,7 +99,7 @@ $$
 u(0,t)=u(1,t)=0
 $$
 
-### 2.Numerical Scheme and Result:
+### 2.1.Numerical Scheme and Result:
 Please refer to PDF report in the file:Project 2
 
 
