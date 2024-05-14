@@ -25,7 +25,7 @@ $$
 
 $$
 \tilde{\rho}(x,y,0) = \tilde{p}(x,y,0)=\begin{cases}
-    -1 & \text{if } (x,y) \in B \\
+    1 & \text{if } (x,y) \in B \\
     0 & \text{if } (x,y) \in \Omega \\B
 \end{cases} 
 $$
