@@ -34,6 +34,8 @@ Where $B=\\{(x,y)|(x-x_0)^2+(y-y_0)^2<=r^2\\},\rho_0>0$. The boundary conditions
 $$
 \tilde{u}(0,y,t)=\tilde{u}(1,y,t)=\tilde{v}(x,0,t)=\tilde{v}(x,1,t)=0
 $$
+### Numerical Scheme and Result:
+Please refer to PDF report in the file:Project 1
 
 ## Project 2: HLLC Solver for 1D-Euler Equations System with Riemann Problem & Woodward-Collela Blast Wave Problem
 
@@ -95,6 +97,9 @@ With reflective boundary condition:
 $$
 u(0,t)=u(1,t)=0
 $$
+
+### Numerical Scheme and Result:
+Please refer to PDF report in the file:Project 2
 
 
 
